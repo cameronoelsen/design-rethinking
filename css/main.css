@@ -184,12 +184,16 @@ body {
     }
 
     h1 {
-        font-family: "Eina1Bold", sans-serif;
         line-height: 56px;
         font-size: 48px;
     }
+    
+    h2 {
+        font-size: 36px;
+        line-height: 1.25;
+    }
 
-    h4, h5 {
+    h1, h2, h3, h4, h5, p {
         font-family: "Eina1Bold", sans-serif;
     }
 
@@ -424,5 +428,82 @@ body {
     
     .jumbotron-speakers {
         text-align: center;
+        background-image: url(../img/left-curtain.svg), url(../img/right-curtain.svg), url(../img/left-squiggle.svg), url(../img/right-squiggle.svg);
+        background-size: 112px auto, 98px auto, 40px auto, 40px auto;
+        background-repeat: no-repeat;
+        background-position: 0px 24px, 862px 22px, 380px 214px, 536px 214px;
+    }
+    
+    .speaker {
+        margin: 80px 0px;
+    }
+    
+    .speaker-date {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+    
+    .speaker-info-photo {
+        height: 150px;
+        width: auto;
+    }
+    
+    .speaker-social-media {
+        text-align: center;
+        padding-top: 16px;
+    }
+    
+    .speaker-social-icon {
+        height: 40px;
+        width: auto;
+        padding-right: 8px;
+    }
+    
+    .session-info {
+        padding-left: 40px;
+        width: 572px;
+    }
+    
+    .session-title {
+        font-size: 40px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .session-speaker {
+        margin-top: 12px;
+    }
+    
+    .session-underline {
+        padding-bottom: 2px;
+        border-bottom: 2px solid #6B625E;
+    }
+    
+    .session-desc {
+        line-height: 1.6;
+        width: 508px;
+    }
+    
+    .session-action {
+        vertical-align: top;
+        padding-top: 20px;
+        width: 180px;
+    }
+    
+    .get-ticket-btn {
+        font-family: 'Eina1Bold';
+        color: black;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 16px 40px;
+        background-color: #FCCD2C;
+        margin-left: 10px;
+    }
+    
+    .session-location {
+        text-align: right;
+        font-size: 18px;
+        margin-top: 36px;
     }
 }
