@@ -161,7 +161,6 @@ body {
 
 @media (min-width: 992px) {
     body {
-        height: 800px;
         color: #6B625E;
     }
 
@@ -171,7 +170,7 @@ body {
         font-size: 48px;
     }
 
-    h4 {
+    h4, h5 {
         font-family: "Eina1Bold", sans-serif;
     }
 
@@ -208,7 +207,7 @@ body {
     }
 
     .content-section {
-        padding: 52px 0px;
+        padding: 40px 0px;
         display: inline-block;
     }
 
@@ -221,31 +220,183 @@ body {
         background-size: 132px auto, 44px auto, 60px auto, 60px auto, 76px auto, 84px auto, 80px auto, 72px auto, 56px auto, 56px auto, 56px auto;
     }
     
+    .col-2 {
+        display: inline-block;
+        width: 160px;
+    }
+    
     .col-4 {
         display: inline-block;
         width: 320px;
         vertical-align: top;
     }
     
-    .col-8 {
+    .col-6 {
         display: inline-block;
-        width: 600px;
-        padding-left: 36px;
+        width: 462px;
         vertical-align: top;
     }
     
-    .right-section-header {
+    .col-8 {
+        display: inline-block;
+        width: 600px;
+        vertical-align: top;
+    }
+    
+    .col-12 {
+        display: inline-block;
+        width: 960px;
+    }
+    
+    .section-header {
         font-family: 'Eina1Bold';
         font-size: 36px;
     }
     
-    .right-section-desc {
+    .section-desc {
         font-family: 'Eina1Bold';
         font-size: 20px;
+        line-height: 1.6;
+    }
+    
+    .right-section-header, .right-section-desc {
+        padding-left: 36px;
+        text-align: left;
+    }
+    
+    .left-section-header, .left-section-desc {
+        padding-right: 36px;
+        text-align: right;
     }
     
     #lightbulb-header {
         padding-top: 24px;
     }
     
+    #slo-hills {
+        width: 552px;
+        padding-top: 40px;
+    }
+    
+    .full-section-header {
+        margin-top: 0px;
+        padding-left: 18px;
+        text-align: left;
+    }
+    
+    .featured-speakers {
+        margin: auto;
+        padding-top: 12px;
+    }
+    
+    .featured-speaker {
+        display: inline-block;
+        width: 236px;
+    }
+    
+    .speaker-photo {
+        display: block;
+        margin: auto;
+        width: 200px;
+        border: 1px solid #E0E0E0;
+    }
+    
+    .speaker-name {
+        cursor:default;
+        color: #E263A7;
+        font-size: 24px;
+        margin-top: 16px;
+        padding-left: 18px;
+        margin-bottom: 4px;
+    }
+    
+    .speaker-company {
+        cursor: default;
+        font-size: 24px;
+        margin-top: 0px;
+        padding-left: 18px;
+    }
+    
+    .view-speakers {
+        text-align: right;
+        font-size: 24px;
+        transition: .2s color;
+        margin-top: 12px;
+    }
+    
+    .view-speakers:hover {
+        color: #E263A7;
+        cursor: pointer;
+    }
+    
+    .view-arrow {
+        display: inline-block;
+        height: 20px;
+        padding-right: 20px;
+        padding-left: 8px;
+    }
+    
+    .sponsor-row {
+        padding-top: 32px;
+        padding-left: 18px;
+        vertical-align: middle;
+    }
+    
+    #IDEO {
+        width: 120px;
+        margin-right: 40px;
+    }
+    
+    #adobe {
+        height: 120px;
+        margin-right: 40px;
+    }
+    
+    #tinder {
+        width: 220px;
+        margin-right: 40px;
+    }
+    
+    #IBM {
+        height: 80px;
+    }
+    
+    #tcg {
+        width: 120px;
+        margin-right: 40px;
+    }
+    
+    #moo {
+        width: 220px;
+        margin-right: 40px;
+    }
+    
+    #wayfare {
+        width: 300px;
+    }
+    
+    footer {
+        margin-top: 80px;
+        height: 400px;
+        color: white;
+        background-color: #6B625E;
+    }
+    
+    .footer-header {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+    
+    .footer-desc {
+        font-family: 'Eina1Bold';
+        font-size: 16px;
+        padding-right: 32px;
+    }
+    
+    .social-media-icon {
+        margin-top: 12px;
+        margin-right: 12px;
+        width: 40px;
+        height: auto;
+    }
 }
