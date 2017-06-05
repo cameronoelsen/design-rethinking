@@ -7,6 +7,10 @@
     font-style: normal;
 }
 
+body {
+    margin: 0;
+}
+
 .pink-brand-color {
     color: #E263A7;
 }
@@ -14,6 +18,146 @@
 .yellow-brand-color {
     color: #FCCD2C;
 }
+
+/* Navigation hamburger menu styling + animation */
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    background: rgba(255,255,255,.8);
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    transition: height .5s;
+}
+
+#navbar.open {
+    height: 100%;
+    background: url(../img/nav-pattern.png);
+    background-size: cover;
+    
+}
+
+.nav-items {
+    padding-top: 106px;
+}
+
+.nav-item {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Eina1Bold';
+    font-size: 36px;
+    line-height: 1.6;
+}
+
+.nav-active {
+    color: #E263A7;
+}
+
+#nav-icon {
+  width: 60px;
+  height: 35px;
+  position: relative;
+  margin: 20px auto 0px auto;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon span {
+  display: block;
+  position: absolute;
+  height: 6px;
+  width: 50%;
+  background: #9E9E9E;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon span:nth-child(even) {
+  left: 50%;
+}
+
+#nav-icon span:nth-child(odd) {
+  left:0px;
+}
+
+#nav-icon span:nth-child(1), #nav-icon span:nth-child(2) {
+  top: 0px;
+}
+
+#nav-icon span:nth-child(3), #nav-icon span:nth-child(4) {
+  top: 14px;
+}
+
+#nav-icon span:nth-child(5), #nav-icon span:nth-child(6) {
+  top: 28px;
+}
+
+#nav-icon.open span:nth-child(1),#nav-icon.open span:nth-child(6) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon.open span:nth-child(2),#nav-icon.open span:nth-child(5) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon.open span:nth-child(1) {
+  left: 5px;
+  top: 7px;
+}
+
+#nav-icon.open span:nth-child(2) {
+  left: calc(50% - 5px);
+  top: 7px;
+}
+
+#nav-icon.open span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+}
+
+#nav-icon.open span:nth-child(4) {
+  left: 100%;
+  opacity: 0;
+}
+
+#nav-icon.open span:nth-child(5) {
+  left: 5px;
+  top: 29px;
+}
+
+#nav-icon.open span:nth-child(6) {
+  left: calc(50% - 5px);
+  top: 29px;
+}
+
+
 
 @media (min-width: 992px) {
     body {
@@ -60,11 +204,11 @@
     .container {
         max-width: 960px;
         margin: auto;
+        margin-top: 80px;
     }
 
     .content-section {
-        height: 800px;
-        padding: 16px;
+        padding: 52px 0px;
         display: inline-block;
     }
 
@@ -77,14 +221,31 @@
         background-size: 132px auto, 44px auto, 60px auto, 60px auto, 76px auto, 84px auto, 80px auto, 72px auto, 56px auto, 56px auto, 56px auto;
     }
     
-    @keyframes animateHome {
-        animation-iteration-count:infinite;
-        from { background-position: 10px 20px, 30px 80px, 0 0; }
-        to { -moz-transform: scaleX(-1);
-            -o-transform: scaleX(-1);
-            -webkit-transform: scaleX(-1);
-            transform: scaleX(-1);
-            filter: FlipH;
-            -ms-filter: "FlipH";}
+    .col-4 {
+        display: inline-block;
+        width: 320px;
+        vertical-align: top;
     }
+    
+    .col-8 {
+        display: inline-block;
+        width: 600px;
+        padding-left: 36px;
+        vertical-align: top;
+    }
+    
+    .right-section-header {
+        font-family: 'Eina1Bold';
+        font-size: 36px;
+    }
+    
+    .right-section-desc {
+        font-family: 'Eina1Bold';
+        font-size: 20px;
+    }
+    
+    #lightbulb-header {
+        padding-top: 24px;
+    }
+    
 }
