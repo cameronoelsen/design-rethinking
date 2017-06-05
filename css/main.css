@@ -506,4 +506,14 @@ body {
         font-size: 18px;
         margin-top: 36px;
     }
+    
+    /* Styling for Workshops page */
+    
+    .jumbotron-workshops {
+        text-align: center;
+        background-image: url(../img/left-workshop-table.svg), url(../img/right-workshop-table.svg), url(../img/left-squiggle.svg), url(../img/right-squiggle.svg);
+        background-size: 320px auto, 300px auto, 40px auto, 40px auto;
+        background-repeat: no-repeat;
+        background-position: 16px 80px, 620px 22px, 380px 214px, 536px 214px;
+    }
 }
