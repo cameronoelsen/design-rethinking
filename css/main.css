@@ -1,23 +1,90 @@
 @font-face {
     font-family: Eina1Bold;
     src:    url(../fonts/Eina01-Bold.ttf) format('ttf'),
-            url('eina01-bold-webfont.woff2') format('woff2'),
-            url('eina01-bold-webfont.woff') format('woff');
+            url('../fonts/eina01-bold-webfont.woff2') format('woff2'),
+            url('../fonts/eina01-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-
-body {
-    height: 800px;
+.pink-brand-color {
+    color: #E263A7;
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
+.yellow-brand-color {
+    color: #FCCD2C;
 }
 
-.content-section {
-    padding: 16px;
-    display: inline-block;
+@media (min-width: 992px) {
+    body {
+        height: 800px;
+        color: #6B625E;
+    }
+
+    h1 {
+        font-family: "Eina1Bold", sans-serif;
+        line-height: 56px;
+        font-size: 48px;
+    }
+
+    h4 {
+        font-family: "Eina1Bold", sans-serif;
+    }
+
+    .jumbotron {
+        width: 100%;
+        height: 400px;
+        background-color: #FFF;
+        display: block;
+        vertical-align: middle;
+    }
+
+    .jumbotron-title {
+        text-align: left;
+        display: block;
+        margin: 0 auto;
+        vertical-align: middle;
+        width: 268px;
+        padding-top: 100px;
+    }
+
+    .jumbotron-header {
+        margin-bottom: 8px;
+    }
+
+    .jumbotron-subhead {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .content-section {
+        height: 800px;
+        padding: 16px;
+        display: inline-block;
+    }
+
+
+    /* Styling for home page */
+    .jumbotron-home {
+        background-image: url(../img/home-assets/thought-bubble.svg), url(../img/home-assets/ruler.svg), url(../img/home-assets/notebook.svg), url(../img/home-assets/paint-pallete.svg), url(../img/home-assets/brush.svg), url(../img/home-assets/yes-comment.svg), url(../img/home-assets/printer.svg), url(../img/home-assets/apple.svg), url(../img/home-assets/mobile-phone.svg), url(../img/home-assets/pencil.svg), url(../img/home-assets/paper-stack.svg);
+        background-repeat: no-repeat;
+        background-position: 524px 78px, 20px 60px, 20px 264px, 204px 28px, 150px 160px, 190px 296px, 378px 36px, 688px 40px, 756px 152px, 686px 296px, 880px 250px;
+        background-size: 132px auto, 44px auto, 60px auto, 60px auto, 76px auto, 84px auto, 80px auto, 72px auto, 56px auto, 56px auto, 56px auto;
+    }
+    
+    @keyframes animateHome {
+        animation-iteration-count:infinite;
+        from { background-position: 10px 20px, 30px 80px, 0 0; }
+        to { -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            filter: FlipH;
+            -ms-filter: "FlipH";}
+    }
 }
