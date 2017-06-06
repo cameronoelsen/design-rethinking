@@ -1107,7 +1107,7 @@ body {
     }
 
     .container {
-        width: 768px;
+        width: 320px;
         margin: auto;
         margin-top: 80px;
     }
@@ -1134,7 +1134,7 @@ body {
     
     .col-4 {
         display: inline-block;
-        width: 33%;
+        width: 100%;
         vertical-align: top;
     }
     
