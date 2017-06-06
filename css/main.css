@@ -1348,9 +1348,13 @@ body {
     
     footer {
         margin-top: 80px;
-        height: 280px;
+        height: 100%;
         color: white;
         background-color: #6B625E;
+    }
+    
+    footer .container {
+        width: 90%;
     }
     
     .footer-header {
@@ -1373,6 +1377,7 @@ body {
     /* Styling for Speakers page */
     
     .jumbotron-speakers {
+        height: 323px;
         text-align: center;
         background-image: url(../img/left-curtain.svg), url(../img/right-curtain.svg);
         background-size: 89.6px auto, 78.4px auto, 32px auto, 32px auto, 625px auto;
