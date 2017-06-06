@@ -661,7 +661,6 @@ body {
 
     .container {
         width: 768px;
-        max-width: 960px;
         margin: auto;
         margin-top: 80px;
     }
@@ -687,19 +686,19 @@ body {
     
     .col-4 {
         display: inline-block;
-        width: 320px;
+        width: 33%;
         vertical-align: top;
     }
     
     .col-6 {
         display: inline-block;
-        width: 462px;
+        width: 49%;
         vertical-align: top;
     }
     
     .col-8 {
         display: inline-block;
-        width: 600px;
+        width: 66%;
         vertical-align: top;
     }
     
@@ -733,9 +732,13 @@ body {
         padding-top: 24px;
     }
     
+    #lightbulb {
+        padding-top: 56px;
+    }
+    
     #slo-hills {
-        width: 552px;
-        padding-top: 40px;
+        width: 100%;
+        padding-top: 120px;
     }
     
     .full-section-header {
@@ -751,13 +754,13 @@ body {
     
     .featured-speaker {
         display: inline-block;
-        width: 236px;
+        width: 20%;
     }
     
     .speaker-photo {
         display: block;
         margin: auto;
-        width: 200px;
+        width: 80%;
         border: 1px solid #E0E0E0;
     }
     
@@ -778,6 +781,7 @@ body {
     }
     
     .view-speakers {
+        width: 768px;
         text-align: right;
         font-size: 24px;
         transition: .2s color;
@@ -804,36 +808,36 @@ body {
     
     /* Sponsor logos */
     #IDEO {
-        width: 120px;
-        margin-right: 40px;
+        width: 96px;
+        margin-right: 32px;
     }
     
     #adobe {
-        height: 120px;
-        margin-right: 40px;
+        height: 96px;
+        margin-right: 32px;
     }
     
     #tinder {
-        width: 220px;
-        margin-right: 40px;
+        width: 176px;
+        margin-right: 32px;
     }
     
     #IBM {
-        height: 80px;
+        height: 64px;
     }
     
     #tcg {
-        width: 120px;
-        margin-right: 40px;
+        width: 96px;
+        margin-right: 32px;
     }
     
     #moo {
-        width: 220px;
-        margin-right: 40px;
+        width: 176px;
+        margin-right: 32px;
     }
     
     #wayfare {
-        width: 300px;
+        width: 240px;
     }
     
     footer {
