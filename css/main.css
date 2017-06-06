@@ -1516,8 +1516,9 @@ body {
     .jumbotron-location {
         background-image: url(../img/PAC.svg);
         background-repeat: no-repeat;
-        background-size: 500px auto;
-        background-position: 50px 39px;
+        background-size: 300px auto;
+        background-position: 10% 140px;
+        height: 360px;
     }
     
     .jumbotron-location-title {
@@ -1534,7 +1535,7 @@ body {
     .slo-location-map {
         display: block;
         margin: auto;
-        width: 600px;
+        width: 100%;
         text-align: center;
     }
     
