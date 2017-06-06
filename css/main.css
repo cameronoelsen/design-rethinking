@@ -187,12 +187,20 @@ body {
 
     h1 {
         line-height: 56px;
-        font-size: 48px;
+        font-size: 40px;
     }
     
     h2 {
-        font-size: 36px;
+        font-size: 32px;
         line-height: 1.25;
+    }
+    
+    h3 {
+        font-size: 28px;
+    }
+    
+    h4 {
+        font-size: 18px;
     }
 
     h1, h2, h3, h4, h5, p {
@@ -231,6 +239,7 @@ body {
     }
 
     .content-section {
+        width: 992px;
         padding: 40px 0px;
         display: inline-block;
     }
@@ -258,7 +267,7 @@ body {
     
     .col-6 {
         display: inline-block;
-        width: 462px;
+        width: 48%;
         vertical-align: top;
     }
     
@@ -275,12 +284,10 @@ body {
     
     .section-header {
         font-family: 'Eina1Bold';
-        font-size: 36px;
     }
     
     .section-desc {
         font-family: 'Eina1Bold';
-        font-size: 20px;
         line-height: 1.6;
     }
     
@@ -409,7 +416,6 @@ body {
     }
     
     .footer-header {
-        font-size: 32px;
         margin-bottom: 0px;
     }
     
@@ -467,7 +473,6 @@ body {
     }
     
     .session-title {
-        font-size: 40px;
         margin-top: 4px;
         margin-bottom: 4px;
     }
@@ -539,7 +544,6 @@ body {
     
     .event-time {
         font-family: 'Just Me Again Down Here', cursive;
-        font-size: 56px;
         margin-top: 0px;
         margin-bottom: 0px;
         color: #E263A7;
@@ -602,7 +606,6 @@ body {
     }
     
     .contact-header {
-        font-size: 28px;
         margin-top: 60px;
         padding-left: 40px;
     }
@@ -692,7 +695,7 @@ body {
     
     .col-6 {
         display: inline-block;
-        width: 49%;
+        width: 48%;
         vertical-align: top;
     }
     
@@ -848,7 +851,6 @@ body {
     }
     
     .footer-header {
-        font-size: 32px;
         margin-bottom: 0px;
     }
     
@@ -978,7 +980,6 @@ body {
     
     .event-time {
         font-family: 'Just Me Again Down Here', cursive;
-        font-size: 56px;
         margin-top: 0px;
         margin-bottom: 0px;
         color: #E263A7;
@@ -1041,7 +1042,6 @@ body {
     }
     
     .contact-header {
-        font-size: 28px;
         margin-top: 60px;
         padding-left: 40px;
     }
@@ -1058,12 +1058,9 @@ body {
   and (min-device-width: 320px) 
   and (max-device-width: 767px)
 
-    
-=======
     #home-brand {
         opacity: 0;
         transition: .2s linear;
     }
     
 }
->>>>>>> 257cf816e7bec0c2c3068ec024dd1b7973124a47
