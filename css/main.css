@@ -516,4 +516,44 @@ body {
         background-repeat: no-repeat;
         background-position: 16px 80px, 620px 22px, 380px 214px, 536px 214px;
     }
+    
+    /* Styling for schedule page */
+    
+    .jumbotron-schedule {
+        text-align: center;
+    }
+    
+    .schedule-title {
+        text-align: center;
+    }
+    
+    .event-time {
+        font-family: 'Just Me Again Down Here', cursive;
+        font-size: 56px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #E263A7;
+    }
+    
+    .event-presenter {
+        margin: 0px 0px 4px 0px;
+        font-size: 28px;
+        color: #9E9E9E;
+    }
+    
+    .event-name {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    
+    .first-schedule-col {
+        text-align: center;
+        padding-right: 16px;
+        border-right: 4px solid #FCCD2C;
+    }
+    
+    .second-schedule-col {
+        text-align: center;
+        padding-left: 12px;
+    }
 }
