@@ -187,7 +187,7 @@ body {
 
     h1 {
         line-height: 56px;
-        font-size: 40px;
+        font-size: 48px;
     }
     
     h2 {
@@ -845,7 +845,7 @@ body {
     
     footer {
         margin-top: 80px;
-        height: 400px;
+        height: 280px;
         color: white;
         background-color: #6B625E;
     }
@@ -1011,14 +1011,14 @@ body {
     .jumbotron-location {
         background-image: url(../img/PAC.svg);
         background-repeat: no-repeat;
-        background-size: 600px auto;
-        background-position: 50px 00px;
+        background-size: 500px auto;
+        background-position: 50px 39px;
     }
     
     .jumbotron-location-title {
         z-index: 0;
         position: relative;
-        left: 165px;
+        left: 184px;
         top: -49px;
     }
     
