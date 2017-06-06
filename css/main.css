@@ -62,7 +62,7 @@ body {
 }
 
 .nav-active {
-    color: #E263A7;
+    color: #E263A7 !important;
 }
 
 #nav-icon {
@@ -358,6 +358,8 @@ body {
         font-size: 24px;
         transition: .2s color;
         margin-top: 12px;
+        text-decoration: none !important;
+        color: #FCCD2C;
     }
     
     .view-speakers:hover {
@@ -623,6 +625,10 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px) {
     
+    .nav-active {
+        color: #E263A7 !important;
+    }
+    
     body {
         color: #6B625E;
     }
@@ -798,6 +804,8 @@ body {
         font-size: 24px;
         transition: .2s color;
         margin-top: 12px;
+        text-decoration: none !important;
+        color: #FCCD2C;
     }
     
     .view-speakers:hover {
@@ -1062,6 +1070,10 @@ body {
     
 @media (min-width: 320px) and (max-width: 767px) {
     
+    .nav-active {
+        color: #E263A7;
+    }
+    
     #navbar.open {
         height: 100%;
         background: url(../img/nav-pattern.png);
@@ -1292,6 +1304,12 @@ body {
         font-size: 24px;
         transition: .2s color;
         margin-top: 12px;
+        text-decoration: none !important;
+        color: #FCCD2C;
+    }
+    
+    .view-speakers a{
+        text-decoration: none;
     }
     
     .view-speakers:hover {
