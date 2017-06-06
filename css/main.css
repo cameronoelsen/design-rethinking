@@ -310,6 +310,10 @@ body {
         padding-top: 40px;
     }
     
+    .mobile-hills {
+        display: none;
+    }
+    
     .full-section-header {
         margin-top: 0px;
         padding-left: 18px;
@@ -743,6 +747,10 @@ body {
     #slo-hills {
         width: 100%;
         padding-top: 120px;
+    }
+    
+    .mobile-hills {
+        display: none;
     }
     
     .full-section-header {
@@ -1221,8 +1229,14 @@ body {
     }
     
     #slo-hills {
-        width: 100%;
-        padding-top: 120px;
+        width: 90%;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .desktop-hills {
+        display: none;
     }
     
     .full-section-header {
@@ -1232,13 +1246,14 @@ body {
     }
     
     .featured-speakers {
+        text-align: center;
         margin: auto;
         padding-top: 12px;
     }
     
     .featured-speaker {
         display: inline-block;
-        width: 20%;
+        max-width: 300px;
     }
     
     .speaker-photo {
