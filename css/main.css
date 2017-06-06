@@ -616,10 +616,389 @@ body {
 
 @media only screen 
   and (min-device-width: 768px) 
-  and (max-device-width: 991px) 
+  and (max-device-width: 991px)
+    
+  /* Styling for home page */
+    .jumbotron-home {
+        text-align: left;
+        background-image: url(../img/home-assets/thought-bubble.svg), url(../img/home-assets/ruler.svg), url(../img/home-assets/notebook.svg), url(../img/home-assets/paint-pallete.svg), url(../img/home-assets/brush.svg), url(../img/home-assets/yes-comment.svg), url(../img/home-assets/printer.svg), url(../img/home-assets/apple.svg), url(../img/home-assets/mobile-phone.svg), url(../img/home-assets/pencil.svg), url(../img/home-assets/paper-stack.svg);
+        background-repeat: no-repeat;
+        background-position: 524px 78px, 20px 60px, 20px 264px, 204px 28px, 150px 160px, 190px 296px, 378px 36px, 688px 40px, 756px 152px, 686px 296px, 880px 250px;
+        background-size: 132px auto, 44px auto, 60px auto, 60px auto, 76px auto, 84px auto, 80px auto, 72px auto, 56px auto, 56px auto, 56px auto;
+    }
+    
+    .col-2 {
+        display: inline-block;
+        width: 160px;
+    }
+    
+    .col-4 {
+        display: inline-block;
+        width: 320px;
+        vertical-align: top;
+    }
+    
+    .col-6 {
+        display: inline-block;
+        width: 462px;
+        vertical-align: top;
+    }
+    
+    .col-8 {
+        display: inline-block;
+        width: 600px;
+        vertical-align: top;
+    }
+    
+    .col-12 {
+        display: inline-block;
+        width: 960px;
+    }
+    
+    .section-header {
+        font-family: 'Eina1Bold';
+        font-size: 36px;
+    }
+    
+    .section-desc {
+        font-family: 'Eina1Bold';
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    
+    .right-section-header, .right-section-desc {
+        padding-left: 36px;
+        text-align: left;
+    }
+    
+    .left-section-header, .left-section-desc {
+        padding-right: 36px;
+        text-align: right;
+    }
+    
+    #lightbulb-header {
+        padding-top: 24px;
+    }
+    
+    #slo-hills {
+        width: 552px;
+        padding-top: 40px;
+    }
+    
+    .full-section-header {
+        margin-top: 0px;
+        padding-left: 18px;
+        text-align: left;
+    }
+    
+    .featured-speakers {
+        margin: auto;
+        padding-top: 12px;
+    }
+    
+    .featured-speaker {
+        display: inline-block;
+        width: 236px;
+    }
+    
+    .speaker-photo {
+        display: block;
+        margin: auto;
+        width: 200px;
+        border: 1px solid #E0E0E0;
+    }
+    
+    .speaker-name {
+        cursor:default;
+        color: #E263A7;
+        font-size: 24px;
+        margin-top: 16px;
+        padding-left: 18px;
+        margin-bottom: 4px;
+    }
+    
+    .speaker-company {
+        cursor: default;
+        font-size: 24px;
+        margin-top: 0px;
+        padding-left: 18px;
+    }
+    
+    .view-speakers {
+        text-align: right;
+        font-size: 24px;
+        transition: .2s color;
+        margin-top: 12px;
+    }
+    
+    .view-speakers:hover {
+        color: #E263A7;
+        cursor: pointer;
+    }
+    
+    .view-arrow {
+        display: inline-block;
+        height: 20px;
+        padding-right: 20px;
+        padding-left: 8px;
+    }
+    
+    .sponsor-row {
+        padding-top: 32px;
+        padding-left: 18px;
+        vertical-align: middle;
+    }
+    
+    /* Sponsor logos */
+    #IDEO {
+        width: 120px;
+        margin-right: 40px;
+    }
+    
+    #adobe {
+        height: 120px;
+        margin-right: 40px;
+    }
+    
+    #tinder {
+        width: 220px;
+        margin-right: 40px;
+    }
+    
+    #IBM {
+        height: 80px;
+    }
+    
+    #tcg {
+        width: 120px;
+        margin-right: 40px;
+    }
+    
+    #moo {
+        width: 220px;
+        margin-right: 40px;
+    }
+    
+    #wayfare {
+        width: 300px;
+    }
+    
+    footer {
+        margin-top: 80px;
+        height: 400px;
+        color: white;
+        background-color: #6B625E;
+    }
+    
+    .footer-header {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+    
+    .footer-desc {
+        font-family: 'Eina1Bold';
+        font-size: 16px;
+        padding-right: 32px;
+    }
+    
+    .social-media-icon {
+        margin-top: 12px;
+        margin-right: 12px;
+        width: 40px;
+        height: auto;
+    }
+    
+    /* Styling for Speakers page */
+    
+    .jumbotron-speakers {
+        text-align: center;
+        background-image: url(../img/left-curtain.svg), url(../img/right-curtain.svg), url(../img/left-squiggle.svg), url(../img/right-squiggle.svg), url(../img/stage-front.svg);
+        background-size: 112px auto, 98px auto, 40px auto, 40px auto, 812px auto;
+        background-repeat: no-repeat;
+        background-position: 0px 24px, 862px 22px, 380px 214px, 536px 214px, 93px 300px;
+    }
+    
+    .speaker {
+        margin: 80px 0px;
+    }
+    
+    .speaker-date {
+        font-size: 28px;
+        margin-top: 8px;
+    }
+    
+    .speaker-info-photo {
+        height: 150px;
+        width: auto;
+    }
+    
+    .speaker-social-media {
+        text-align: center;
+        padding-top: 16px;
+    }
+    
+    .speaker-social-icon {
+        height: 40px;
+        width: auto;
+        padding-right: 8px;
+    }
+    
+    .session-info {
+        padding-left: 40px;
+        width: 572px;
+    }
+    
+    .session-title {
+        font-size: 40px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    
+    .session-speaker {
+        margin-top: 12px;
+    }
+    
+    .session-underline {
+        padding-bottom: 2px;
+        border-bottom: 2px solid #6B625E;
+    }
+    
+    .session-desc {
+        line-height: 1.6;
+        width: 508px;
+    }
+    
+    .session-action {
+        vertical-align: top;
+        padding-top: 20px;
+        width: 180px;
+    }
+    
+    .get-ticket-btn {
+        font-family: 'Eina1Bold';
+        color: black;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 16px 40px;
+        background-color: #FCCD2C;
+        margin-left: 10px;
+    }
+    
+    .session-location {
+        text-align: right;
+        font-size: 18px;
+        margin-top: 36px;
+    }
+    
+    /* Styling for Workshops page */
+    
+    .jumbotron-workshops {
+        text-align: center;
+        background-image: url(../img/left-workshop-table.svg), url(../img/right-workshop-table.svg), url(../img/left-squiggle.svg), url(../img/right-squiggle.svg);
+        background-size: 320px auto, 300px auto, 40px auto, 40px auto;
+        background-repeat: no-repeat;
+        background-position: 16px 80px, 620px 22px, 380px 214px, 536px 214px;
+        animation: rotatebg 1s linear infinite;
+
+    }
+
+    
+    /* Styling for schedule page */
+    
+    .jumbotron-schedule {
+        text-align: center;
+        background-image: url(../img/schedule.png);
+        background-repeat: no-repeat;
+        background-size: 500px auto;
+        background-position: 235px -150px;
+        
+    }
+    
+    .schedule-title {
+        text-align: center;
+    }
+    
+    .event-time {
+        font-family: 'Just Me Again Down Here', cursive;
+        font-size: 56px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #E263A7;
+    }
+    
+    .event-presenter {
+        margin: 0px 0px 4px 0px;
+        font-size: 28px;
+        color: #9E9E9E;
+    }
+    
+    .event-name {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    
+    .first-schedule-col {
+        text-align: center;
+        padding-right: 16px;
+        border-right: 4px solid #FCCD2C;
+    }
+    
+    .second-schedule-col {
+        text-align: center;
+        padding-left: 12px;
+    }
+    
+    /* Location page styling */
+    
+    .jumbotron-location {
+        background-image: url(../img/PAC.svg);
+        background-repeat: no-repeat;
+        background-size: 600px auto;
+        background-position: 50px 00px;
+    }
+    
+    .jumbotron-location-title {
+        z-index: 0;
+        position: relative;
+        left: 165px;
+        top: -49px;
+    }
+    
+    .lg-bubble-img {
+        width: 100%;
+    }
+    
+    .slo-location-map {
+        display: block;
+        margin: auto;
+        width: 600px;
+        text-align: center;
+    }
+    
+    /* Contact page styling */
+    
+    .jumbotron-contact {
+        text-align: center;
+        height: 150px
+    }
+    
+    .contact-header {
+        font-size: 28px;
+        margin-top: 60px;
+        padding-left: 40px;
+    }
+    .contact-info {
+        font-size: 24px;
+        padding-left: 40px;
+    }
+    
+
     
 /* Phone Media Query */
     
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 767px)     
+  and (max-device-width: 767px)
+
+    
