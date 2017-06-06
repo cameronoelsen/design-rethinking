@@ -684,7 +684,7 @@ body {
     
     .col-2 {
         display: inline-block;
-        width: 160px;
+        width: 16%;
     }
     
     .col-4 {
@@ -887,8 +887,8 @@ body {
     }
     
     .speaker-info-photo {
-        height: 150px;
-        width: auto;
+        height: auto;
+        width: 100%;
     }
     
     .speaker-social-media {
@@ -904,7 +904,7 @@ body {
     
     .session-info {
         padding-left: 40px;
-        width: 572px;
+        width: 52%;
     }
     
     .session-title {
@@ -924,7 +924,7 @@ body {
     
     .session-desc {
         line-height: 1.6;
-        width: 508px;
+        width: 100%;
     }
     
     .session-action {
