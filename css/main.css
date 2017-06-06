@@ -1062,6 +1062,12 @@ body {
     
 @media (min-width: 320px) and (max-width: 767px) {
     
+    #navbar.open {
+        height: 100%;
+        background: url(../img/nav-pattern.png);
+        background-size: cover;
+    }
+    
     #nav-brand {
         left: 20px;
     }
@@ -1074,7 +1080,8 @@ body {
     }
     
     .nav-items {
-        padding-top: 72px;
+        padding-top: 40%;
+        vertical-align: middle;
     }
     
     .nav-item {
@@ -1083,7 +1090,7 @@ body {
         text-align: center;
         text-decoration: none;
         font-family: 'Eina1Bold';
-        font-size: 24px;
+        font-size: 32px;
         line-height: 1.6;
     }
     
@@ -1415,8 +1422,8 @@ body {
     }
     
     .session-info {
-        padding-left: 40px;
-        width: 66%;
+        padding-left: 28px;
+        width: 64%;
     }
     
     .session-title {
