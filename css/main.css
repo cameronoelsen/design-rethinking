@@ -22,6 +22,7 @@ body {
 /* Navigation hamburger menu styling + animation */
 
 #navbar {
+    z-index: 4;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -428,10 +429,10 @@ body {
     
     .jumbotron-speakers {
         text-align: center;
-        background-image: url(../img/left-curtain.svg), url(../img/right-curtain.svg), url(../img/left-squiggle.svg), url(../img/right-squiggle.svg);
-        background-size: 112px auto, 98px auto, 40px auto, 40px auto;
+        background-image: url(../img/left-curtain.svg), url(../img/right-curtain.svg), url(../img/left-squiggle.svg), url(../img/right-squiggle.svg), url(../img/stage-front.svg);
+        background-size: 112px auto, 98px auto, 40px auto, 40px auto, 812px auto;
         background-repeat: no-repeat;
-        background-position: 0px 24px, 862px 22px, 380px 214px, 536px 214px;
+        background-position: 0px 24px, 862px 22px, 380px 214px, 536px 214px, 93px 300px;
     }
     
     .speaker {
@@ -515,12 +516,20 @@ body {
         background-size: 320px auto, 300px auto, 40px auto, 40px auto;
         background-repeat: no-repeat;
         background-position: 16px 80px, 620px 22px, 380px 214px, 536px 214px;
+        animation: rotatebg 1s linear infinite;
+
     }
+
     
     /* Styling for schedule page */
     
     .jumbotron-schedule {
         text-align: center;
+        background-image: url(../img/schedule.png);
+        background-repeat: no-repeat;
+        background-size: 500px auto;
+        background-position: 235px -150px;
+        
     }
     
     .schedule-title {
@@ -556,4 +565,32 @@ body {
         text-align: center;
         padding-left: 12px;
     }
+    
+    /* Location page styling */
+    
+    .jumbotron-location {
+        background-image: url(../img/PAC.svg);
+        background-repeat: no-repeat;
+        background-size: 600px auto;
+        background-position: 50px 00px;
+    }
+    
+    .jumbotron-location-title {
+        z-index: 0;
+        position: relative;
+        left: 165px;
+        top: -49px;
+    }
+    
+    .lg-bubble-img {
+        width: 100%;
+    }
+    
+    .slo-location-map {
+        display: block;
+        margin: auto;
+        width: 600px;
+        text-align: center;
+    }
+    
 }
