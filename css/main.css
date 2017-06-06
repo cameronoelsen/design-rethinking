@@ -610,6 +610,7 @@ body {
         padding-left: 40px;
     }
     
+<<<<<<< HEAD
 }
 
 /* Tablet media query */
@@ -1002,3 +1003,11 @@ body {
   and (max-device-width: 767px)
 
     
+=======
+    #home-brand {
+        opacity: 0;
+        transition: .2s linear;
+    }
+    
+}
+>>>>>>> 257cf816e7bec0c2c3068ec024dd1b7973124a47
