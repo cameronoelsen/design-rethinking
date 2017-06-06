@@ -707,7 +707,7 @@ body {
     
     .col-12 {
         display: inline-block;
-        width: 960px;
+        width: 768px;
     }
     
     .section-header {
@@ -1004,7 +1004,6 @@ body {
     
     .second-schedule-col {
         text-align: center;
-        padding-left: 12px;
     }
     
     /* Location page styling */
