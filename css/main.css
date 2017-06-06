@@ -531,10 +531,10 @@ body {
     
     .jumbotron-schedule {
         text-align: center;
-        background-image: url(../img/schedule.png);
+        background-image: url(../img/schedule-updated.png);
         background-repeat: no-repeat;
-        background-size: 500px auto;
-        background-position: 235px -150px;
+        background-size: 300px auto;
+        background-position: 327px 50px;
         
     }
     
@@ -967,10 +967,10 @@ body {
     
     .jumbotron-schedule {
         text-align: center;
-        background-image: url(../img/schedule.png);
+        background-image: url(../img/schedule-updated.png);
         background-repeat: no-repeat;
-        background-size: 500px auto;
-        background-position: 235px -150px;
+        background-size: 300px auto;
+        background-position: 235px 50px;
         
     }
     
