@@ -955,9 +955,9 @@ body {
     .jumbotron-workshops {
         text-align: center;
         background-image: url(../img/left-workshop-table.svg), url(../img/right-workshop-table.svg), url(../img/left-squiggle.svg), url(../img/right-squiggle.svg);
-        background-size: 320px auto, 300px auto, 40px auto, 40px auto;
+        background-size: 256px auto, 240px auto, 32px auto, 32px auto;
         background-repeat: no-repeat;
-        background-position: 16px 80px, 620px 22px, 380px 214px, 536px 214px;
+        background-position: 6px 80px, 500px 22px, 292px 214px, 442px 214px;
         animation: rotatebg 1s linear infinite;
 
     }
