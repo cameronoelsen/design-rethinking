@@ -1053,7 +1053,36 @@ body {
 /* Phone Media Query */
     
 @media (min-width: 320px) and (max-width: 767px) {
-
+    
+    #nav-brand {
+        left: 20px;
+    }
+    
+    #nav-icon {
+        margin: 0;
+        float: right;
+        margin-top: 20px;
+        margin-right: 12px;
+    }
+    
+    .nav-items {
+        padding-top: 72px;
+    }
+    
+    .nav-item {
+        color: black;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Eina1Bold';
+        font-size: 24px;
+        line-height: 1.6;
+    }
+    
+    .nav-social-media {
+        padding-top: 24px;
+    }
+    
     #home-brand {
         opacity: 0;
         transition: .2s linear;
