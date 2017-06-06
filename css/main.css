@@ -1052,18 +1052,14 @@ body {
     
 /* Phone Media Query */
     
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 767px)
+@media (min-width: 320px) and (max-width: 767px) {
 
     #home-brand {
         opacity: 0;
         transition: .2s linear;
     }
     
-}
-
-body {
+    body {
         color: #6B625E;
     }
 
@@ -1113,7 +1109,7 @@ body {
     }
 
     .content-section {
-        width: 768px;
+        width: 320px;
         padding: 40px 0px;
         display: inline-block;
     }
