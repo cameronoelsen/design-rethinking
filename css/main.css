@@ -669,6 +669,7 @@ body {
     }
 
     .content-section {
+        width: 768px;
         padding: 40px 0px;
         display: inline-block;
     }
@@ -1041,11 +1042,10 @@ body {
     
     .contact-header {
         margin-top: 60px;
-        padding-left: 40px;
+        padding-left: 45px;
     }
     .contact-info {
-        font-size: 24px;
-        padding-left: 40px;
+        padding-left: 45px;
     }
     
 }
