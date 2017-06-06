@@ -593,4 +593,21 @@ body {
         text-align: center;
     }
     
+    /* Contact page styling */
+    
+    .jumbotron-contact {
+        text-align: center;
+        height: 150px
+    }
+    
+    .contact-header {
+        font-size: 28px;
+        margin-top: 60px;
+        padding-left: 40px;
+    }
+    .contact-info {
+        font-size: 24px;
+        padding-left: 40px;
+    }
+    
 }
