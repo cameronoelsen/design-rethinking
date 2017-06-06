@@ -1117,10 +1117,10 @@ body {
   /* Styling for home page */
     .jumbotron-home {
         text-align: left;
-        background-image: url(../img/home-assets/thought-bubble.svg), url(../img/home-assets/ruler.svg), url(../img/home-assets/notebook.svg), url(../img/home-assets/paint-pallete.svg), url(../img/home-assets/brush.svg), url(../img/home-assets/yes-comment.svg), url(../img/home-assets/printer.svg), url(../img/home-assets/apple.svg), url(../img/home-assets/mobile-phone.svg), url(../img/home-assets/pencil.svg);
+        background-image: url(../img/home-assets/ruler.svg), url(../img/home-assets/notebook.svg), url(../img/home-assets/paint-pallete.svg), url(../img/home-assets/brush.svg), url(../img/home-assets/yes-comment.svg), url(../img/home-assets/printer.svg), url(../img/home-assets/apple.svg), url(../img/home-assets/pencil.svg);
         background-repeat: no-repeat;
         background-position: 183px 86px, 16px 60px, 16px 264px, 163px 28px, 120px 160px, 152px 296px, 302px 36px, 550px 40px, 604px 152px, 548px 296px, 704px 250px;
-        background-size: 50px auto, 34px auto, 48px auto, 48px auto, 60px auto, 68px auto, 64px auto, 58px auto, 44px auto, 44px auto, 44px auto;
+        background-size: 40px auto, 34px auto, 48px auto, 48px auto, 60px auto, 68px auto, 64px auto, 58px auto, 44px auto, 44px auto, 44px auto;
     }
     
     .col-2 {
