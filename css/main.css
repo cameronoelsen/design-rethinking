@@ -1138,7 +1138,7 @@ body {
     }
 
     .content-section {
-        width: 320px;
+        width: 100%;
         padding: 40px 0px;
         display: inline-block;
     }
@@ -1182,31 +1182,42 @@ body {
     
     .section-header {
         font-family: 'Eina1Bold';
-        font-size: 36px;
     }
     
     .section-desc {
         font-family: 'Eina1Bold';
-        font-size: 20px;
         line-height: 1.6;
     }
     
     .right-section-header, .right-section-desc {
-        padding-left: 36px;
-        text-align: left;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .right-section-desc {
+        max-width: 90%;
+        display: block;
+        margin: auto;
     }
     
     .left-section-header, .left-section-desc {
-        padding-right: 36px;
-        text-align: right;
+        padding-right: 0px;
+        text-align: center;
+        max-width: 90%;
+        display: block;
+        margin: auto;
+        margin-bottom: 21px;
     }
     
     #lightbulb-header {
-        padding-top: 24px;
+        padding-top: 0px;
     }
     
     #lightbulb {
-        padding-top: 56px;
+        display: block;
+        margin: auto;
+        height: 160px;
+        padding-top: 0px;
     }
     
     #slo-hills {
@@ -1254,7 +1265,7 @@ body {
     }
     
     .view-speakers {
-        width: 768px;
+        width: 100%;
         text-align: right;
         font-size: 24px;
         transition: .2s color;
