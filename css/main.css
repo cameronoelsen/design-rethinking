@@ -410,7 +410,7 @@ body {
     
     footer {
         margin-top: 80px;
-        height: 400px;
+        height: 292px;
         color: white;
         background-color: #6B625E;
     }
@@ -908,7 +908,6 @@ body {
     }
     
     .session-title {
-        font-size: 40px;
         margin-top: 4px;
         margin-bottom: 4px;
     }
