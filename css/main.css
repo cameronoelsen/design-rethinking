@@ -1399,6 +1399,10 @@ body {
         width: 100%;
     }
     
+    .speaker-misc {
+        padding-left: 24px;
+    }
+    
     .speaker-social-media {
         text-align: center;
         padding-top: 16px;
@@ -1412,7 +1416,7 @@ body {
     
     .session-info {
         padding-left: 40px;
-        width: 52%;
+        width: 66%;
     }
     
     .session-title {
@@ -1438,7 +1442,8 @@ body {
     .session-action {
         vertical-align: top;
         padding-top: 20px;
-        width: 180px;
+        width: 100%;
+        text-align: center;
     }
     
     .get-ticket-btn {
@@ -1447,13 +1452,13 @@ body {
         border-radius: 4px;
         text-decoration: none;
         font-size: 20px;
-        padding: 16px 40px;
+        padding: 16px 32%;
         background-color: #FCCD2C;
         margin-left: 10px;
     }
     
     .session-location {
-        text-align: right;
+        text-align: center;
         font-size: 18px;
         margin-top: 36px;
     }
@@ -1529,18 +1534,21 @@ body {
     .jumbotron-location-title {
         z-index: 0;
         position: relative;
-        left: 184px;
+        left: 0px;
         top: -49px;
     }
     
     .lg-bubble-img {
-        width: 100%;
+        max-width: 70%;
+        display: block;
+        margin: auto;
+        text-align: center;
     }
     
     .slo-location-map {
         display: block;
         margin: auto;
-        width: 100%;
+        max-width: 80%;
         text-align: center;
     }
     
@@ -1548,13 +1556,22 @@ body {
     
     .jumbotron-contact {
         text-align: center;
-        height: 150px
+        height: 100px
+    }
+    
+    .jumbotron-contact .jumbotron-title {
+        padding-top: 40px;
     }
     
     .contact-header {
         margin-top: 60px;
         padding-left: 45px;
     }
+    
+    .mailbox {
+        max-height: 300px;
+    }
+    
     .contact-info {
         padding-left: 45px;
     }
