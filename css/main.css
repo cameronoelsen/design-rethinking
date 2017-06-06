@@ -610,4 +610,9 @@ body {
         padding-left: 40px;
     }
     
+    #home-brand {
+        opacity: 0;
+        transition: .2s linear;
+    }
+    
 }
